@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Fitness Gym</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#members">Members</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2>Welcome to Fitness Gym</h2>
+            <p>Your ultimate destination for fitness and wellness.</p>
+            <button id="join-now">Join Now</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Fitness Gym offers top-notch facilities, experienced trainers, and a supportive community to help you reach your fitness goals.</p>
+        </div>
+    </section>
+
+    <section id="members">
+        <div class="container">
+            <h2>Our Members</h2>
+            <ul id="member-list">
+                <!-- Members will be dynamically added here -->
+            </ul>
+            <form id="add-member-form">
+                <input type="text" id="member-name" placeholder="Enter Member Name" required>
+                <button type="submit">Add Member</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Fitness Gym. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
